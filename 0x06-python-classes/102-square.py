@@ -7,8 +7,7 @@ class Square:
     def __init__(self, size=0):
         """ init square
 
-        Args:
-            value (int): size of the square.
+        Args value (int): size of the square.
         """
         self.size = size
 
@@ -16,7 +15,7 @@ class Square:
     def size(self):
         """int: private size.
 
-        Returns - Private size.
+        Returns: Private size.
         """
         return self.__size
 
@@ -26,8 +25,8 @@ class Square:
 
         Args- value (int): size of the square.
         """
-        if type(value) is not int:
-            raise TypeError('size must be an integer')
+        if type(value) is not int and type(value) is not float:
+            raise TypeError('size must be a number')
         elif value < 0:
             raise ValueError('size must be >= 0')
         else:
@@ -36,17 +35,21 @@ class Square:
     def area(self):
         """returns the area
 
-        Returns- area.
+        Return- area.
         """
         return self.__size**2
 
-    def my_print(self):
-        """prints in stdout the square with the character #"""
+    def __lt__(self, other):
+        return self.size < other.size
 
-        if self.__size != 0:
-            for i in range(self.__size):
-                for j in range(self.__size):
-                    print('#', end='')
-                print()
-        else:
-            print()
+    def __le__(self, other):
+        return self.size <= other.size
+
+    def __eq__(self, other):
+        return self.size == other.size
+
+    def __ne__(self, other):
+        return self.size != other.size
+
+    def __ge__(self, other):
+        return self.size >= other.size

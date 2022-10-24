@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-
 """
 Contains the class BaseGeometry and subclass Rectangle
 """
+
 
 class BaseGeometry:
     """A class with public instance methods area and integer_validator"""
@@ -16,6 +16,7 @@ class BaseGeometry:
             raise TypeError("{:s} must be an integer".format(name))
         if value <= 0:
             raise ValueError("{:s} must be greater than 0".format(name))
+
 
 class Rectangle(BaseGeometry):
     """A representation of a rectangle"""

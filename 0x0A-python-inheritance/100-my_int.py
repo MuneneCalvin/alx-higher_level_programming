@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-
 """
 Contains the class MyInt
 """
+
 
 class MyInt(int):
     """rebel version of an integer, perfect for opposite day!"""

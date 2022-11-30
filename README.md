@@ -9,7 +9,15 @@ The specific list of projects contained follows:
 * [0x02. Python - import & modules](./0x02-python-import_modules)
 * [0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures)
 * [0x04. Python - More Data Structures: Set, Dictionaries](./0x04-python-more_data_structures)
-*
+* [0x05. Python - Exceptions](./0x05-python_exceptions)
+* [0x06. Python - Classes](./0x06-python-classes)
+* [0x07. Python - Test Driven Dev](./0x07-python-test_driven_development)
+* [0x08. Python - More Classes](./0x08-python-more_classes)
+* [0x09. Python - Everything Is Object](./0x09-python-evrrything_is_object)
+* [0x0B. Python - Input Output](./0x0B-python-input_output)
+* [0x0C. Python - Almost A Circle](./0x0C-python-almost_a_circle)
+* [0x0D. SQL - Introduction](./0x0D-SQL_introduction)
+* [0x0E. SQL - More Queries](./0x0E-SQL_more_queries)
 
 
 ## Author:
